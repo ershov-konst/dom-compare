@@ -12,6 +12,7 @@
    } :
    {
       compare: require(libPrefix + '/compare'),
+      compareStrings: require(libPrefix + '/compareStrings'),
       XMLSerializer: require(libPrefix + '/canonizer'),
       revXPath: require(libPrefix + '/revxpath'),
       GroupingReporter: require(libPrefix + '/reporters/groupingReporter.js')
